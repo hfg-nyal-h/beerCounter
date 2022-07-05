@@ -1,15 +1,15 @@
 #	Raspi - Clone Git Repo
 
 ### Beercounter
-cd classifyOnRpi
-npm install
-node classijy.js modelfile.eim
+cd classifyOnRpi <br/>
+npm install <br/>
+node classijy.js modelfile.eim <br/>
 
 ### Slackbot
-ls ..
-cd slackbot
-npm install
-npm run
+cd .. <br/>
+cd slackbot <br/>
+npm install <br/>
+npm run <br/>
 
 
 ### Machine Learning Project - Beercounter
