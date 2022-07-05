@@ -1,4 +1,3 @@
-//ersetzen mit dotenv
-
-export const SLACK_OAUTH_TOKEN = 'xoxb-3710548046403-3696650065943-AM6TyGkBMr3lBxQYWh95dcYE'
-export const BOT_SPAM_CHANNEL = '#botspam' // this is the channel you want your bot online & spam to go
+require("dotenv").config();
+export const SLACK_OAUTH_TOKEN = process.env.SLACK_TOKEN
+export const BOT_SPAM_CHANNEL = process.env.SLACK_CHANNEL
